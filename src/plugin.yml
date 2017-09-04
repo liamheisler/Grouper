@@ -1,0 +1,20 @@
+name: Grouper
+main: me.liamheisler.grouper.main.Main
+version: 1.0
+author: liamheisler
+description: Group players into a few different groups. Simple testing.
+
+permissions:
+  chat.format.member:
+    description: lets a player use member chat format
+    default: op
+  chat.format.moderator:
+    description: lets a player use moderator chat format
+    default: op
+  chat.format.admin:
+    description: lets a player use admin chat format
+    default: op
+
+commands:
+  group:
+    description: Group a player into groups. See /group for details.
